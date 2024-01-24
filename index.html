@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando con Bootstrap
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        @media (min-width: 992px) {
+            .alto-100{
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container"> 
+        <div class="row">
+            <div class="col-1 border border-danger">1</div>
+            <div class="col-1 border border-danger">2</div>
+            <div class="col-1 border border-danger">3</div>
+            <div class="col-1 border border-danger">4</div>
+            <div class="col-1 border border-danger">5</div>
+            <div class="col-1 border border-danger">6</div>
+            <div class="col-1 border border-danger">7</div>
+            <div class="col-1 border border-danger">8</div>
+            <div class="col-1 border border-danger">9</div>
+            <div class="col-1 border border-danger">10</div>
+            <div class="col-1 border border-danger">11</div>
+            <div class="col-1 border border-danger">12</div>
+        </div>
+        <div class="row">
+            <div class="col-4 border border-success">1</div>
+            <div class="col-4 border border-success"">2</div>
+            <div class="col-4 border border-success"">3</div>
+        </div>
+        <div class="row">
+            <div class="col-3 border border-warning"">1</div>
+            <div class="col-3 border border-warning"">2</div>
+            <div class="col-3 border border-warning"">3</div>
+            <div class="col-3 border border-warning"">4</div>
+        </div>
+        <div class="row">
+            <div class="col-6 border border-info"">1</div>
+            <div class="col-4 border border-info"">2</div>
+            <div class="col-2 border border-info"">3</div>
+        </div>
+    </div>-->
+    <div class="container d-flex align-items-center justify-content-center alto-100">
+        <div class="row">
+            <div class="col-12 col-lg-9 "">
+                <div class="row">
+                    <div class="col-12 col-lg-8 p-2">
+                        <article class="card h-100 bg-success">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <img src="/Imagenes/Andromeda.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3">
+                                        <h6 class="m-0 h5">Andrómeda</h6>
+                                        <p class="m-0 h6">La Doncella Encadenada</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">
+                                        La constelación de la Doncella Encadenada, puede verse desde agosto hasta febrero. Esta estrella gigante azul se encuentra a 97 años luz de la Tierra y brilla 200 veces más que nuestro Sol.
+                                    </p>
+                                    <p class="fs-6 lh-1">
+                                        Las cuatro estrellas principales de Andrómeda forman una línea curva hacia el este, con Mirach representando sus caderas y Almach su pie encadenado. Aunque Mirach es casi idéntica en brillo a Alpheratz, se trata de una gigante roja de mayor tamaño situada a 197 años luz.
+                                        Fuente : <a href="https://www.nationalgeographic.es/espacio/constelaciones-conocidas-como-localizarlas" title="Cinco constelaciones">Cinco constelaciones</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-4 p-2 ">
+                        <article class="card h-100 bg-danger">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <img src="/Imagenes/CanisMajor.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3">
+                                        <h6 class="m-0 h5">Canis Major</h6>
+                                        <p class="m-0 h6">El Can Mayor</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="fs-6 lh-1">
+                                        A la cabeza se encuentra el M41, también conocido como La pequeña colmena. Este contiene unas 80 estrellas, se encuentra a 2300 años luz de distancia, pero es visible a simple vista en una noche oscura. 
+                                        Fuente : <a href="https://www.nationalgeographic.es/espacio/constelaciones-conocidas-como-localizarlas" title="Cinco constelaciones">Cinco constelaciones</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-4 p-2">
+                        <article class="card h-100 bg-info">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <img src="/Imagenes/Orion.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3">
+                                        <h6 class="m-0 h5">Orión</h6>
+                                        <p class="m-0 h6">El Cazador</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="fs-6 lh-1">
+                                        Orión incluye una zona de la Vía Láctea que presenta una intensa producción estelar. Orión cuenta con dos estrellas de primera magnitud, con Betelgeuse y Rigel.
+                                        Fuente : <a href="https://www.nationalgeographic.es/espacio/constelaciones-conocidas-como-localizarlas" title="Cinco constelaciones">Cinco constelaciones</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-8 p-2 ">
+                        <article class="card h-100 bg-secondary">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <img src="/Imagenes/OsaMayor.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3">
+                                        <h6 class="m-0 h5">Osa Mayor</h6>
+                                        <p class="m-0 h6">Ursa Major</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">
+                                        La Osa Mayor es una de las constelaciones boreales más prominentes, y su principal reclamo es que contiene la Osa Mayor, un asterismo muy reconocible. 
+                                    </p>
+                                    <p class="fs-6 lh-1">
+                                        Mientras que para los antiguos griegos este grupo estelar representaba un gran oso, otras culturas veían desde un carro hasta un caballo, una yunta de bueyes y un hipopótamo. Algunas tribus nativas americanas creen que el vaso del cazo representa a un oso y las estrellas del mango a los guerreros que lo persiguen.
+                                        Fuente : <a href="https://www.nationalgeographic.es/espacio/constelaciones-conocidas-como-localizarlas" title="Cinco constelaciones">Cinco constelaciones</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 p-2">
+                <article class="card h-100 bg-warning">
+                    <div class="card-body">
+                        <div class="d-flex mb-3">
+                            <img src="/Imagenes/Draco.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                            <div class="ps-3">
+                                <h6 class="m-0 h5">Draco</h6>
+                                <p class="m-0 h6">El Dragón</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="h6">
+                                Draco no tiene estrellas especialmente brillantes. La cabeza del dragón está representada por un cuadrilátero de estrellas situadas entre Hércules y la Osa Menor. 
+                            </p>
+                            <p class="fs-6 lh-1">
+                                 La estrella más brillante del Dragón es Etamin. En cuanto a su nomenclatura, su abreviatura es Dra, su nombre en latín es Draco y su genitivo es Draconis. Tiene un total de 211 estrellas.
+                                Fuente: <a href="https://astrosigma.com/dragon/" title="El Dragón (constelación)">El Dragón (constelación)</a>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
